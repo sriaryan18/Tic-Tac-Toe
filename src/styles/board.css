@@ -1,0 +1,48 @@
+.board-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set the height of the container to full viewport height */
+    
+  }
+  
+  .square {
+    background-color: transparent;
+    border: 1px solid #000;
+    /* padding: 20px; 
+    font-size: 24px;  */
+    color: #000;
+    cursor: pointer;
+    margin: 5px;
+    height: 65px;
+    width: 65px;
+    transition: background-color 0.3s;
+    border-radius: 50%;
+
+  
+  }
+  
+  
+  .square:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  .square:active {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  
+  
+  
+  
+  
+  
+  
+  .square:hover {
+    background-color: rgba(0, 0, 0, 0.3); 
+  }
+  
+  .square:active {
+    background-color: rgba(0, 0, 0, 0.8); 
+  }
